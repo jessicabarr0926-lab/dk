@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panama Birthday Trip 2026</title>
+  <meta name="description" content="Panama City birthday trip itinerary, outfit planner, packing checklist, and booking dashboard." />
+  <style>
+    :root {
+      --ink:#2f2a25;
+      --muted:#756b62;
+      --cream:#fbf6ee;
+      --sand:#eadcc8;
+      --terracotta:#c86d4c;
+      --olive:#65705a;
+      --gold:#c79b55;
+      --white:#fff;
+      --shadow:0 14px 40px rgba(50,40,30,.10);
+      --radius:22px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--cream);color:var(--ink);line-height:1.55}
+    a{color:inherit}
+    .wrap{width:min(1120px,92vw);margin:auto}
+    .hero{min-height:72vh;display:flex;align-items:flex-end;padding:72px 0 54px;background:
+      linear-gradient(180deg,rgba(29,33,26,.08),rgba(29,33,26,.68)),
+      radial-gradient(circle at top left,#d7b58a 0,transparent 40%),
+      linear-gradient(135deg,#8da08a,#c98762 58%,#e4c99f);color:white}
+    .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:800;opacity:.9}
+    h1{font-size:clamp(3rem,8vw,6.8rem);line-height:.92;margin:.35rem 0 1rem;max-width:850px;font-family:Georgia,serif;font-weight:500}
+    .hero p{max-width:680px;font-size:1.08rem}
+    .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+    .chip,.badge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:8px 12px;font-weight:750;font-size:.82rem}
+    .chip{background:rgba(255,255,255,.16);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.25)}
+    .badge{background:#e9f3e7;color:#345239}
+    nav{position:sticky;top:0;z-index:10;background:rgba(251,246,238,.92);backdrop-filter:blur(14px);border-bottom:1px solid #e8ddcf}
+    nav .wrap{display:flex;gap:18px;overflow:auto;padding:13px 0;white-space:nowrap;font-weight:750;font-size:.88rem}
+    nav a{text-decoration:none;color:var(--muted)}
+    nav a:hover{color:var(--terracotta)}
+    section{padding:58px 0}
+    h2{font-size:clamp(2rem,5vw,3.6rem);font-family:Georgia,serif;font-weight:500;margin:0 0 10px}
+    .lead{color:var(--muted);max-width:750px;margin:0 0 28px}
+    .grid{display:grid;gap:18px}
+    .grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .card{background:var(--white);border:1px solid #eadfd2;border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+    .booking{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}
+    .booking h3,.day h3{margin:.25rem 0 .3rem;font-size:1.25rem}
+    .booking p,.day p{margin:.3rem 0;color:var(--muted)}
+    .status{background:#e9f3e7;color:#31513a;border-radius:999px;padding:7px 11px;font-size:.75rem;font-weight:850;letter-spacing:.06em}
+    .day{border-left:5px solid var(--terracotta)}
+    .day .date{font-size:.77rem;font-weight:850;letter-spacing:.13em;text-transform:uppercase;color:var(--terracotta)}
+    .timeline{display:grid;gap:10px;margin-top:16px}
+    .slot{display:grid;grid-template-columns:88px 1fr;gap:14px;padding:10px 0;border-top:1px solid #eee4d8}
+    .time{font-weight:800;color:var(--olive)}
+    .outfit{margin-top:15px;padding:14px;border-radius:16px;background:#f5eee3}
+    .outfit strong{color:#7d4938}
+    .energy{font-size:.82rem;color:var(--muted);font-weight:700}
+    .check-group h3{margin-top:0}
+    label.check{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px dashed #eadfd2;cursor:pointer}
+    input[type="checkbox"]{width:19px;height:19px;margin-top:2px;accent-color:var(--terracotta)}
+    label.check:has(input:checked){text-decoration:line-through;color:#9b9188}
+    .palette{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .swatch{width:44px;height:44px;border-radius:50%;border:3px solid white;box-shadow:0 0 0 1px #d7c8b7}
+    .callout{background:var(--ink);color:white;border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}
+    .callout h3{margin-top:0;font-family:Georgia,serif;font-size:1.8rem}
+    .small{font-size:.85rem;color:var(--muted)}
+    footer{padding:44px 0 70px;text-align:center;color:var(--muted)}
+    .reset{border:0;background:#eee2d3;color:#51463e;padding:10px 14px;border-radius:12px;font-weight:750;cursor:pointer}
+    @media(max-width:760px){
+      .grid.two,.grid.three{grid-template-columns:1fr}
+      .hero{min-height:64vh;padding-top:56px}
+      .slot{grid-template-columns:76px 1fr}
+      section{padding:42px 0}
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">26th Birthday Escape</div>
+      <h1>Panama City<br/>Sept. 24–29</h1>
+      <p>A six-day birthday trip built around city energy, culture, water, spa time, beautiful dinners, and enough breathing room to actually enjoy the vacation.</p>
+      <div class="chips">
+        <span class="chip">✈️ Flight booked</span>
+        <span class="chip">🏨 Sortis booked</span>
+        <span class="chip">🎂 Birthday: Sept. 26</span>
+        <span class="chip">🌿 Adventure + rest</span>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrap">
+      <a href="#bookings">Booked</a>
+      <a href="#itinerary">Itinerary</a>
+      <a href="#outfits">Outfits</a>
+      <a href="#packing">Packing</a>
+      <a href="#todo">Still to Book</a>
+      <a href="#safety">Safety</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="bookings">
+      <div class="wrap">
+        <h2>Trip dashboard</h2>
+        <p class="lead">The big pieces are done. The rest of the planning can now revolve around experiences instead of logistics.</p>
+        <div class="grid two">
+          <article class="card booking">
+            <div>
+              <div class="eyebrow" style="color:var(--olive)">Flight</div>
+              <h3>Atlanta ⇄ Panama City</h3>
+              <p>Sept. 24–29 • nonstop itinerary booked</p>
+              <p class="small">Keep the airline confirmation and baggage details in your wallet/app rather than on this public page.</p>
+            </div>
+            <span class="status">BOOKED</span>
+          </article>
+          <article class="card booking">
+            <div>
+              <div class="eyebrow" style="color:var(--olive)">Hotel</div>
+              <h3>Sortis Hotel, Spa & Casino</h3>
+              <p>Obarrio • 5 nights • Deluxe King Room</p>
+              <p class="small">Check-in Sept. 24 • check-out Sept. 29</p>
+            </div>
+            <span class="status">BOOKED</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="itinerary" style="background:#f4eadf">
+      <div class="wrap">
+        <h2>Intentional itinerary</h2>
+        <p class="lead">High-energy days alternate with recovery blocks. Nothing important is stacked so tightly that one rain shower or long lunch ruins the trip.</p>
+        <div class="grid two">
+
+          <article class="card day">
+            <div class="date">Thursday • Sept. 24</div>
+            <h3>Arrival + settle in</h3>
+            <div class="energy">Energy: 2/10 • intentionally easy</div>
+            <div class="timeline">
+              <div class="slot"><div class="time">Evening</div><div>Land, collect bag, Uber to Sortis, check in and unpack the essentials.</div></div>
+              <div class="slot"><div class="time">Late</div><div>Shower, hotel dinner or room service, one drink only if you genuinely want it.</div></div>
+            </div>
+            <div class="outfit"><strong>Look:</strong> matching travel set, fitted tank, sneakers, light layer, crossbody.</div>
+          </article>
+
+          <article class="card day">
+            <div class="date">Friday • Sept. 25</div>
+            <h3>Canal + city + Casco</h3>
+            <div class="energy">Energy: 8/10 • busy-body day</div>
+            <div class="timeline">
+              <div class="slot"><div class="time">Morning</div><div>Breakfast, then Miraflores Locks / Panama Canal.</div></div>
+              <div class="slot"><div class="time">Midday</div><div>Amador Causeway + lunch.</div></div>
+              <div class="slot"><div class="time">Afternoon</div><div>Biomuseo, then return to Sortis for shower, pool or 45-minute nap.</div></div>
+              <div class="slot"><div class="time">Evening</div><div>Uber to Casco Viejo for historic streets, dinner, photos and one rooftop.</div></div>
+            </div>
+            <div class="outfit"><strong>Day:</strong> cream/olive flowy maxi or linen set. <strong>Night:</strong> colorful boho maxi + gold jewelry.</div>
+          </article>
+
+          <article class="card day">
+            <div class="date">Saturday • Sept. 26</div>
+            <h3>Birthday: spa + pool + dinner</h3>
+            <div class="energy">Energy: 5/10 day → 10/10 night</div>
+            <div class="timeline">
+              <div class="slot"><div class="time">Morning</div><div>Sleep in, long breakfast/brunch, birthday pictures.</div></div>
+              <div class="slot"><div class="time">Noon</div><div>Essentia Spa at Sortis — massage + facial/body treatment.</div></div>
+              <div class="slot"><div class="time">2–4 PM</div><div>Pool, lunch, drink, music. No schedule.</div></div>
+              <div class="slot"><div class="time">4–7 PM</div><div>Full getting-ready block: shower, hair, makeup, pictures.</div></div>
+              <div class="slot"><div class="time">Night</div><div>Birthday dinner → rooftop cocktails → dancing only if the energy is right.</div></div>
+            </div>
+            <div class="outfit"><strong>Birthday look:</strong> solid statement maxi in burnt orange, red, cobalt, emerald, chartreuse or ivory + comfortable heel.</div>
+          </article>
+
+          <article class="card day">
+            <div class="date">Sunday • Sept. 27</div>
+            <h3>Emberá village + waterfall</h3>
+            <div class="energy">Energy: 10/10 • most active day</div>
+            <div class="timeline">
+              <div class="slot"><div class="time">Morning</div><div>Early breakfast, sunscreen, organized pickup from hotel.</div></div>
+              <div class="slot"><div class="time">Day</div><div>Canoe ride, rainforest, waterfall swim, community visit, traditional lunch and crafts.</div></div>
+              <div class="slot"><div class="time">Evening</div><div>Return to Sortis, long shower, casual dinner or room service. No forced nightlife.</div></div>
+            </div>
+            <div class="outfit"><strong>Look:</strong> swimsuit underneath, athletic skort/shorts, moisture-wicking tank, lightweight overshirt, grippy water sandals.</div>
+          </article>
+
+          <article class="card day">
+            <div class="date">Monday • Sept. 28</div>
+            <h3>Taboga catamaran + last night</h3>
+            <div class="energy">Energy: 7/10 • fun, social, watery</div>
+            <div class="timeline">
+              <div class="slot"><div class="time">Morning</div><div>Breakfast, swimsuit on, head to marina.</div></div>
+              <div class="slot"><div class="time">Day</div><div>Catamaran, drinks, swimming, lunch, Taboga Island and sun.</div></div>
+              <div class="slot"><div class="time">Late PM</div><div>Back to Sortis for shower + short nap.</div></div>
+              <div class="slot"><div class="time">Night</div><div>Nice last-night dinner. Rooftop only if you still want more.</div></div>
+            </div>
+            <div class="outfit"><strong>Day:</strong> statement swimsuit + crochet cover-up. <strong>Night:</strong> silky midi/mini or matching skirt set.</div>
+          </article>
+
+          <article class="card day">
+            <div class="date">Tuesday • Sept. 29</div>
+            <h3>Slow goodbye</h3>
+            <div class="energy">Energy: 3/10 • protect the travel day</div>
+            <div class="timeline">
+              <div class="slot"><div class="time">Morning</div><div>Breakfast, finish packing, short pool/coffee moment, shower.</div></div>
+              <div class="slot"><div class="time">Before noon</div><div>Room sweep: safe, closet, bathroom, chargers, jewelry, passport.</div></div>
+              <div class="slot"><div class="time">Airport</div><div>Leave with a comfortable buffer for the international flight home.</div></div>
+            </div>
+            <div class="outfit"><strong>Look:</strong> linen pants or matching travel set + tank + sneakers.</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="outfits">
+      <div class="wrap">
+        <h2>Boho resort wardrobe</h2>
+        <p class="lead">Old-city tropical, not generic beach vacation: crochet, linen-look sets, flowy silhouettes, earthy tones and gold jewelry.</p>
+        <div class="grid three">
+          <div class="card"><h3>City</h3><p>Neutral or olive maxi, linen set, flat sandal, woven bag.</p></div>
+          <div class="card"><h3>Beach</h3><p>Statement swimsuit, crochet cover-up, oversized sunglasses, flat sandal.</p></div>
+          <div class="card"><h3>Birthday</h3><p>One solid-color statement dress that looks completely different from the rest of the suitcase.</p></div>
+        </div>
+        <div class="palette" aria-label="Trip color palette">
+          <span class="swatch" style="background:#efe4d1" title="Cream"></span>
+          <span class="swatch" style="background:#6d563f" title="Chocolate"></span>
+          <span class="swatch" style="background:#68705c" title="Olive"></span>
+          <span class="swatch" style="background:#c7653f" title="Burnt orange"></span>
+          <span class="swatch" style="background:#1c7f83" title="Turquoise"></span>
+          <span class="swatch" style="background:#d6ab3f" title="Gold"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="packing" style="background:#f4eadf">
+      <div class="wrap">
+        <h2>Packing checklist</h2>
+        <p class="lead">Tap items as you pack. Your progress saves on the device you use.</p>
+        <div class="grid three">
+          <div class="card check-group">
+            <h3>Clothes</h3>
+            <label class="check"><input type="checkbox"/> Travel set</label>
+            <label class="check"><input type="checkbox"/> 2 daytime maxis</label>
+            <label class="check"><input type="checkbox"/> Linen-look set</label>
+            <label class="check"><input type="checkbox"/> Birthday dress</label>
+            <label class="check"><input type="checkbox"/> 2 dinner/night looks</label>
+            <label class="check"><input type="checkbox"/> Adventure skort/shorts + tank</label>
+            <label class="check"><input type="checkbox"/> 2 swimsuits</label>
+            <label class="check"><input type="checkbox"/> 2 cover-ups</label>
+          </div>
+          <div class="card check-group">
+            <h3>Shoes + extras</h3>
+            <label class="check"><input type="checkbox"/> Clean sneakers</label>
+            <label class="check"><input type="checkbox"/> Flat walking sandals</label>
+            <label class="check"><input type="checkbox"/> Water/grippy sandals</label>
+            <label class="check"><input type="checkbox"/> Birthday block/kitten heel</label>
+            <label class="check"><input type="checkbox"/> Woven daytime bag</label>
+            <label class="check"><input type="checkbox"/> Small night bag</label>
+            <label class="check"><input type="checkbox"/> Waterproof tote</label>
+            <label class="check"><input type="checkbox"/> Sunglasses + hat</label>
+          </div>
+          <div class="card check-group">
+            <h3>Beauty + practical</h3>
+            <label class="check"><input type="checkbox"/> Passport</label>
+            <label class="check"><input type="checkbox"/> Face + body SPF</label>
+            <label class="check"><input type="checkbox"/> Bug spray</label>
+            <label class="check"><input type="checkbox"/> Portable charger</label>
+            <label class="check"><input type="checkbox"/> Waterproof phone pouch</label>
+            <label class="check"><input type="checkbox"/> Motion-sickness medicine</label>
+            <label class="check"><input type="checkbox"/> Makeup + setting spray</label>
+            <label class="check"><input type="checkbox"/> Hair + skincare products</label>
+          </div>
+        </div>
+        <p style="margin-top:20px"><button class="reset" id="resetChecks">Reset checklist</button></p>
+      </div>
+    </section>
+
+    <section id="todo">
+      <div class="wrap">
+        <h2>Still to book</h2>
+        <div class="grid two">
+          <div class="card check-group">
+            <label class="check"><input type="checkbox"/> Essentia Spa birthday treatment</label>
+            <label class="check"><input type="checkbox"/> Birthday dinner</label>
+            <label class="check"><input type="checkbox"/> Birthday rooftop/bar</label>
+            <label class="check"><input type="checkbox"/> Emberá village + waterfall tour</label>
+          </div>
+          <div class="card check-group">
+            <label class="check"><input type="checkbox"/> Taboga catamaran</label>
+            <label class="check"><input type="checkbox"/> Miraflores tickets</label>
+            <label class="check"><input type="checkbox"/> Biomuseo</label>
+            <label class="check"><input type="checkbox"/> STEP enrollment + emergency info</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="safety" style="background:#f4eadf">
+      <div class="wrap">
+        <div class="callout">
+          <h3>Solo travel rules</h3>
+          <p>Uber after dark and when moving between neighborhoods. Confirm the plate before getting in. Keep your passport secured at the hotel unless you need the original. Carry a backup card separately, keep your phone charged, share excursion details with someone at home, and use established tour operators for the village and island days.</p>
+          <p>In Casco Viejo, enjoy the busy tourist core and Uber back to Sortis instead of wandering outward late at night.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Panama Birthday Trip • 2026 • built for adventure, pretty outfits, and naps when necessary.</div>
+  </footer>
+
+  <script>
+    const boxes=[...document.querySelectorAll('input[type="checkbox"]')];
+    boxes.forEach((box,i)=>{
+      const key='panama-check-'+i;
+      box.checked=localStorage.getItem(key)==='1';
+      box.addEventListener('change',()=>localStorage.setItem(key,box.checked?'1':'0'));
+    });
+    document.getElementById('resetChecks').addEventListener('click',()=>{
+      boxes.forEach((box,i)=>{box.checked=false;localStorage.removeItem('panama-check-'+i)});
+    });
+  </script>
+</body>
+</html>
